@@ -15,6 +15,7 @@ let sizeCollector = [];
 let singleProductSizeGuide = $.querySelector(".single-product-size-guide");
 let sizeGuidePageContainer = $.querySelector(".size-guide-page-container");
 let sizeGuideExitBtn = $.querySelector(".size-guide-exit-btn");
+let youMayAlsoLikeBtn = $.querySelector(".you-may-also-like-btn");
 
 let singleProductAddBasketBtn = $.querySelector(".single-product-add-basket-btn");
 let bigImgSrcTemp=null
@@ -177,6 +178,14 @@ singleProductSizeGuide.addEventListener("click", () => {
 });
 sizeGuideExitBtn.addEventListener("click", () => {
   sizeGuidePageContainer.style.left = "-100000px";
+});
+youMayAlsoLikeBtn.addEventListener("click", (e) => {
+  let singleProductCategory=$.querySelector(".single-product-category")
+    switchToProductPage(
+      "category",
+      `${(singleProductCategory.innerHTML.trim()).toLowerCase()}`,
+      `${(singleProductCategory.innerHTML.trim()).toLowerCase()}`
+    ); 
 });
 
 let isSelectSize=null
