@@ -1,0 +1,46 @@
+.size-guide-page-container{
+    width:fit-content;
+    position: fixed;
+    top: 10px;
+    z-index: 9999999999;
+    height: 97vh;
+    left: -10000px;
+
+}
+.size-guide-exit-btn{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+    z-index: 99;
+
+}
+.size-guide-title{
+    font-size: 30px;
+}
+.size-guide-container{
+    direction: rtl ;
+    background-color: var(--main-black);
+    padding:30px 30px 30px 30px;
+    color: var(--main-white);
+    font-size: var(--desc-font-size);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+     border: 1px solid var(--main-green);  
+     border-radius: 12px; 
+}
+.size-guide-table{
+    border: 2px solid var(--main-green);
+    border-collapse: collapse;
+    border-radius: 12px;
+}
+.size-guide-table th,td{
+    border: 2px solid var(--main-green);
+    text-align: start;
+    padding:15px 13px 15px 40px;
+}

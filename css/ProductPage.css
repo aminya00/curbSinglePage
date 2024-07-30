@@ -1,0 +1,202 @@
+.product-page {
+    border: 1px solid var(--main-green);
+    color: var(--main-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 17px;
+    cursor: pointer;
+  }
+  
+  .product-page:hover {
+    box-shadow: 0 0px 5px var(--main-green) !important;
+    transition: all 0.2s !important;
+  }
+  .product-page-active {
+    box-shadow: 0 0px 5px var(--main-green) !important;
+    transition: all 0.2s !important;
+  }
+  .select-product-pages-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+  }
+  .select-product-pages {
+    display: flex;
+    gap: 7px;
+  }
+  
+  .product-page-container{
+    height: auto !important;
+    width: 100% !important;
+  }
+  .product-page-container .product-img-container{
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
+  }
+  .product-page-audio{
+    display: none;
+  }
+  /* ////////// filter /////////// */
+  .filter-container {
+    width: 422px;
+    background-color: var(--main-black);
+    direction: rtl;
+    position: fixed;
+    overflow-y: auto;
+    z-index: 999;
+    height: 97vh;
+    top: 10px;
+    border: 1px solid var(--main-green);
+    border-radius:12px;
+    right: -500px;  
+  }
+  .filter-container::-webkit-scrollbar {
+    width: 7px;
+  }
+  
+  .filter-container::-webkit-scrollbar-track {
+    background-color: rgb(29 30 32);
+  }
+  
+  .filter-container::-webkit-scrollbar-thumb {
+    background-color: var(--main-green);
+    border-radius: 100px;
+  }
+  
+  .filter-item-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  .filter-btns {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 20px !important;
+    position: relative;
+  }
+  .filter-submit {
+    padding: 15px 5px;
+    background-color: var(--main-green);
+    color: var(--main-black);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .filter-submit:hover{
+    background-color:rgb(64, 221, 12);
+    transition: all 0.3s;
+  }
+  .filter-clear {
+    padding: 15px 5px;
+    border: 1px solid var(--main-green);
+    color: var(--main-green);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .filter-clear:hover{
+    background-color:rgb(29 30 32);
+    transition: all 0.3s;
+  }
+  .filter-item-content {
+    display: flex;
+    padding: 20px 15px;
+    gap: 7px;
+  }
+  .filter-item-content-text {
+    color: var(--main-white);
+  }
+  .filter-item-contents {
+    border-bottom: 1px solid var(--main-green);
+    flex-direction: column;
+    display: none;
+  }
+  .filter-checkbox {
+    background-color: var(--main-green);
+  }
+  .filter-checkbox[type="checkbox"] {
+    accent-color: var(--main-green);
+  }
+  .filter-color-box {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    width: 58px;
+    cursor: pointer;
+  }
+  .filter-color-circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 100px;
+    background-color: black;
+    border: 1px solid #a7a7a7;
+    margin-bottom: 5px;
+  }
+  .filter-color-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 15px;
+    border-bottom: 1px solid var(--main-green);
+    display: none;
+  }
+  .filter-color-text {
+    color: var(--main-white);
+  }
+  .meshki {
+    background-color: #000000;
+  }
+  .zoghli {
+    background-color: #272727;
+  }
+  .abi-nafti {
+    background-color: #2c2f3e;
+  }
+  .dodi {
+    background-color: #606060;
+  }
+  .sabz {
+    background-color: #146034;
+  }
+  .sabz-tire {
+    background-color: #0a484c;
+  }
+  .ghermez {
+    background-color: #dd3333;
+  }
+  .banafsh {
+    background-color: #61529a;
+  }
+  .abi {
+    background-color: #1e73be;
+  }
+  .ghahvei {
+    background-color: #8b634a;
+  }
+  .kerem {
+    background-color: #d5ad8a;
+  }
+  .khaki {
+    background-color: #eec09f;
+  }
+  .sorati {
+    background-color: #f2c6c6;
+  }
+  .tosi {
+    background-color: #c6c6c6;
+  }
+  .sefid {
+    background-color: #f7f7f7;
+  }
+  
